@@ -14,7 +14,7 @@ export default class VatsimFlight extends Command {
             default_member_permission: PermissionsBitField.Flags.UseApplicationCommands,
             options: [
                 {
-                    name: 'cid', //
+                    name: 'cid',
                     description: 'VATSIM CID of the user you want to search for',
                     required: false,
                     type: ApplicationCommandOptionType.String
