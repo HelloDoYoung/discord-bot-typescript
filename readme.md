@@ -1,4 +1,4 @@
-# New Discord Bot
+# Discord bot using Typescript
 
 This is a Discord bot project Using Typescript.
 
