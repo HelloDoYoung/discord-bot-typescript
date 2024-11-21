@@ -10,6 +10,14 @@
     "devStart": "npm run clean && npm run build && node build/index.js --development",
     "devStartNoClean": "npm run build && node build/index.js --development"
   },
+  "scripts_formac": {
+    "clean": "rm -rf build",
+    "build": "tsc --build",
+    "start": "npm run clean && npm run build && node build/index.js",
+    "startNoClean": "npm run build && node build/index.js",
+    "devStart": "npm run clean && npm run build && node build/index.js --development",
+    "devStartNoClean": "npm run build && node build/index.js --development"
+  },
   "scripts_forwindows": {
     "clean": "del /s /q build",
     "build": "tsc --build",
